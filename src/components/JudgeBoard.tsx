@@ -61,7 +61,7 @@ export const JudgeBoard: React.FC = () => {
   const judges = language === 'si' ? JUDGES_SI : JUDGES_EN;
 
   return (
-    <section id="judge-board" className="py-24 bg-[#0a0a0a]">
+    <section id="judge-board" className="py-24 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

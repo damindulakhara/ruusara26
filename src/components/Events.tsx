@@ -68,7 +68,7 @@ export const Events: React.FC = () => {
   const selectedEventDetails = selectedEventId ? EVENT_DETAILS[selectedEventId] : [];
 
   return (
-    <section id="events" className="py-24 bg-[#111111]">
+    <section id="events" className="py-24 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-sans font-bold text-gray-200">
@@ -84,7 +84,7 @@ export const Events: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="min-w-[300px] md:min-w-[350px] flex-1 bg-[#181818] rounded-3xl overflow-hidden shadow-lg snap-center border border-gray-800"
+              className="min-w-[300px] md:min-w-[350px] flex-1 bg-black/40 backdrop-blur-md rounded-3xl overflow-hidden shadow-lg snap-center border border-gray-800"
             >
               <div className="h-48 md:h-56 overflow-hidden">
                 <img 
@@ -126,7 +126,7 @@ export const Events: React.FC = () => {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
               onClick={(e) => e.stopPropagation()}
-              className="bg-[#181818] w-full max-w-3xl max-h-[85vh] rounded-3xl shadow-2xl border border-gray-800 flex flex-col overflow-hidden"
+              className="bg-[#181818]/90 backdrop-blur-xl w-full max-w-3xl max-h-[85vh] rounded-3xl shadow-2xl border border-gray-800 flex flex-col overflow-hidden"
             >
               <div className="flex justify-between items-center p-6 border-b border-gray-800">
                 <h3 className={`text-2xl font-bold text-white ${language === 'si' ? 'font-sinhala' : 'font-sans'}`}>

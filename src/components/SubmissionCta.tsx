@@ -6,9 +6,9 @@ export const SubmissionCta: React.FC = () => {
   const { language } = useLanguage();
 
   return (
-    <section className="py-24 bg-[#0a0a0a]">
+    <section className="py-24 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12 bg-[#141414] rounded-3xl p-8 md:p-12 border border-gray-800/50 shadow-2xl">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12 bg-black/40 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-gray-800/50 shadow-2xl">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

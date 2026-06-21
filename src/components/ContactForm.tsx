@@ -6,7 +6,7 @@ export const ContactForm: React.FC = () => {
   const { language } = useLanguage();
 
   return (
-    <section id="contact" className="py-24 bg-[#0a0a0a]">
+    <section id="contact" className="py-24 bg-transparent relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center">
           

@@ -16,7 +16,10 @@ import { Footer } from './components/Footer';
 export default function App() {
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-[#0a0a0a]">
+      <div 
+        className="min-h-screen bg-fixed bg-cover bg-center text-white"
+        style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("https://raw.githubusercontent.com/damindulakhara/ruusara26/files/Beautiful-Plain-Website-Background.jpg")' }}
+      >
         <Navbar />
         <main>
           <Hero />
