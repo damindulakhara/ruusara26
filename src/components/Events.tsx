@@ -10,25 +10,25 @@ const EVENTS_SI = [
     id: '1',
     title: 'හඬ කැවීමේ තරඟාවලිය',
     dateStr: 'නිර්මාණ භාරගැනීම 2026 ජූලි මස 31 වන දින දක්වා විවෘතව ඇත.',
-    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/main/dubbing_feature.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/files/dubbing_feature.jpg',
   },
   {
     id: '2',
     title: 'ඩිජිටල් චරිත සිතුවම් නිර්මාණ තරඟාවලිය',
     dateStr: 'නිර්මාණ භාරගැනීම 2026 ජූලි මස 31 වන දින දක්වා විවෘතව ඇත.',
-    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/main/22-2-qo5hjsgdih7djmzgoiy2chthhwifj2cbdafs03ccyo.png',
+    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/files/22-2-qo5hjsgdih7djmzgoiy2chthhwifj2cbdafs03ccyo.png',
   },
   {
     id: '3',
     title: 'ඡායාරූප සැකසීමේ තරඟාවලිය',
     dateStr: 'නිර්මාණ භාරගැනීම 2026 ජූලි මස 31 වන දින දක්වා විවෘතව ඇත.',
-    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/main/1701685786275.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/files/1701685786275.jpg',
   },
   {
     id: '4',
     title: 'චිත්‍රපට සාරාංශ වීඩියෝ නිර්මාණ තරඟාවලිය',
     dateStr: 'නිර්මාණ භාරගැනීම 2026 ජූලි මස 31 වන දින දක්වා විවෘතව ඇත.',
-    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/main/3521_2408659_236622_image.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/files/3521_2408659_236622_image.jpg',
   }
 ];
 
@@ -37,25 +37,25 @@ const EVENTS_EN = [
     id: '1',
     title: 'Dubbing Competition',
     dateStr: 'Submissions are open until July 31, 2026.',
-    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/main/dubbing_feature.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/files/dubbing_feature.jpg',
   },
   {
     id: '2',
     title: 'Digital Character Design',
     dateStr: 'Submissions are open until July 31, 2026.',
-    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/main/22-2-qo5hjsgdih7djmzgoiy2chthhwifj2cbdafs03ccyo.png',
+    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/files/22-2-qo5hjsgdih7djmzgoiy2chthhwifj2cbdafs03ccyo.png',
   },
   {
     id: '3',
     title: 'Photo Manipulation',
     dateStr: 'Submissions are open until July 31, 2026.',
-    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/main/1701685786275.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/files/1701685786275.jpg',
   },
   {
     id: '4',
     title: 'Movie Trailer Design',
     dateStr: 'Submissions are open until July 31, 2026.',
-    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/main/3521_2408659_236622_image.jpg',
+    imageUrl: 'https://raw.githubusercontent.com/damindulakhara/ruusara26/files/3521_2408659_236622_image.jpg',
   }
 ];
 

@@ -58,7 +58,7 @@ export const SubmissionCta: React.FC = () => {
           >
              <div className="bg-white/5 p-2 rounded-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500 shadow-xl max-w-[280px]">
                <img 
-                 src="https://raw.githubusercontent.com/damindulakhara/ruusara26/main/15727561621_0fbba8d97b_z.jpg" 
+                 src="https://raw.githubusercontent.com/damindulakhara/ruusara26/files/15727561621_0fbba8d97b_z.jpg" 
                  alt="Sri Lankan Traditional Dancer" 
                  className="w-full h-auto object-cover rounded-xl"
                />

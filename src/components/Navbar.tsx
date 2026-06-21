@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           <a href="#home" className="flex-shrink-0 flex items-center">
              <div className="h-10 w-10 relative">
-               <img src="https://raw.githubusercontent.com/damindulakhara/ruusara26/main/logo.png" alt="Ruusara Logo" className="w-full h-full object-contain relative z-10" />
+               <img src="https://raw.githubusercontent.com/damindulakhara/ruusara26/files/logo.png" alt="Ruusara Logo" className="w-full h-full object-contain relative z-10" />
                <div className="absolute inset-0 bg-blue-600 rounded-full blur-[8px] opacity-20"></div>
              </div>
              <div className="ml-2 flex flex-col pt-1">

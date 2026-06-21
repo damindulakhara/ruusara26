@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-24 sm:pt-32 overflow-hidden bg-[#050505] bg-center bg-no-repeat"
       style={{ 
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("https://raw.githubusercontent.com/damindulakhara/ruusara26/main/www.beatsnoop.com-6YW58.jpg")',
+        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("https://raw.githubusercontent.com/damindulakhara/ruusara26/files/www.beatsnoop.com-6YW58.jpg")',
         backgroundSize: 'contain'
       }}
     >
