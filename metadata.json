@@ -1,0 +1,6 @@
+{
+  "name": "Ruusara Portfolio",
+  "description": "A modern, fully responsive portfolio website with Sinhala typography, dynamic gallery, and contact form.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
