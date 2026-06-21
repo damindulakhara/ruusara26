@@ -9,13 +9,10 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-center md:text-left">
-            <a href="#home" className="text-2xl font-serif font-bold tracking-tight text-white inline-block mb-2">
-              {language === 'si' ? (
-                <><span className="text-blue-500">රූ</span>සරා</>
-              ) : (
-                <><span className="text-blue-500">Ruu</span>sara</>
-              )}
-              <span className="text-sm font-sans font-bold ml-2 text-gray-500 uppercase tracking-widest hidden sm:inline-block">Ruusara 2026</span>
+            <a href="#home" className="flex items-center justify-center md:justify-start mb-2">
+              <div className="h-14 w-14 relative mr-3">
+                <img src="https://raw.githubusercontent.com/damindulakhara/ruusara26/files/logo.png" alt="Ruusara Logo" className="w-full h-full object-contain relative z-10" />
+              </div>
             </a>
             <p className={`text-gray-400 text-sm mt-1 ${language === 'si' ? 'font-sinhala' : 'font-sans'}`}>
               {language === 'si' ? '"මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උලෙළ' : '"Let My Country Awake" Student\'s Festival of Literature'}

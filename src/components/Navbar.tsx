@@ -28,11 +28,11 @@ export const Navbar: React.FC = () => {
       <nav className={`w-full transition-all duration-300 sm:rounded-full border ${isScrolled ? 'bg-black/80 backdrop-blur-xl border-gray-800 shadow-2xl py-3' : 'bg-[#050505]/40 backdrop-blur-md border-transparent sm:border-gray-800/30 py-4'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           <a href="#home" className="flex-shrink-0 flex items-center">
-             <div className="h-10 w-10 relative">
+             <div className="h-12 w-12 relative">
                <img src="https://raw.githubusercontent.com/damindulakhara/ruusara26/files/logo.png" alt="Ruusara Logo" className="w-full h-full object-contain relative z-10" />
                <div className="absolute inset-0 bg-blue-600 rounded-full blur-[8px] opacity-20"></div>
              </div>
-             <div className="ml-2 flex flex-col pt-1">
+             <div className="ml-3 flex flex-col pt-1">
                 <span className="text-[10px] font-bold leading-none tracking-wider text-gray-200">DIGITAL ART</span>
                 <span className="text-[10px] font-bold leading-none tracking-wider text-gray-400 mt-0.5">COMPETITION</span>
              </div>
