@@ -10,7 +10,7 @@ export const Navbar: React.FC = () => {
   const navItems = [
     { label: 'Home', href: '#home' },
     { label: 'About Us', href: '#about' },
-    { label: 'Submissions', href: '#submissions' },
+    { label: 'Submissions', href: 'https://forms.gle/sZS1P4zM5tyyukLe7', external: true },
     { label: 'Events', href: '#events' },
     { label: 'Contact Us', href: '#contact' },
   ];
@@ -29,10 +29,8 @@ export const Navbar: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           <a href="#home" className="flex-shrink-0 flex items-center">
              <div className="h-10 w-10 relative">
-               <div className="absolute inset-0 bg-blue-600 rounded-full blur-[4px] opacity-20"></div>
-               <div className="relative text-white font-sinhala font-bold text-2xl leading-none flex items-center justify-center h-full">
-                 <><span className="text-blue-500">Ruu</span>sara</>
-               </div>
+               <img src="https://raw.githubusercontent.com/damindulakhara/ruusara26/main/logo.png" alt="Ruusara Logo" className="w-full h-full object-contain relative z-10" />
+               <div className="absolute inset-0 bg-blue-600 rounded-full blur-[8px] opacity-20"></div>
              </div>
              <div className="ml-2 flex flex-col pt-1">
                 <span className="text-[10px] font-bold leading-none tracking-wider text-gray-200">DIGITAL ART</span>
@@ -46,6 +44,8 @@ export const Navbar: React.FC = () => {
               <a
                 key={item.href}
                 href={item.href}
+                target={item.external ? '_blank' : undefined}
+                rel={item.external ? 'noopener noreferrer' : undefined}
                 className={`relative text-sm font-medium tracking-wide text-gray-300 hover:text-white transition-all px-4 py-2 rounded-full hover:bg-white/10`}
               >
                 {item.label}
@@ -58,7 +58,7 @@ export const Navbar: React.FC = () => {
                 <Globe className="w-4 h-4" />
                 <span className="text-xs font-bold uppercase">{language === 'si' ? 'EN' : 'සිං'}</span>
              </button>
-             <a href="https://forms.gle/placeholder" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-2.5 rounded-full font-medium text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(37,99,235,0.3)] hover:shadow-[0_0_25px_rgba(37,99,235,0.5)]">
+             <a href="https://forms.gle/dT41ZQWyqTJpaFjaA" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-2.5 rounded-full font-medium text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(37,99,235,0.3)] hover:shadow-[0_0_25px_rgba(37,99,235,0.5)]">
                 Register Now
              </a>
           </div>
@@ -88,6 +88,8 @@ export const Navbar: React.FC = () => {
               <a
                 key={item.href}
                 href={item.href}
+                target={item.external ? '_blank' : undefined}
+                rel={item.external ? 'noopener noreferrer' : undefined}
                 className={`block px-4 py-3 text-sm font-medium text-gray-300 hover:bg-white/10 hover:text-white rounded-2xl transition-colors text-center`}
                 onClick={() => setIsOpen(false)}
               >
@@ -95,7 +97,7 @@ export const Navbar: React.FC = () => {
               </a>
             ))}
             <div className="pt-2 pb-2">
-               <a href="https://forms.gle/placeholder" target="_blank" rel="noopener noreferrer" className={`block w-full text-center bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-full font-medium text-sm transition-colors shadow-lg`}>
+               <a href="https://forms.gle/dT41ZQWyqTJpaFjaA" target="_blank" rel="noopener noreferrer" className={`block w-full text-center bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-full font-medium text-sm transition-colors shadow-lg`}>
                   Register Now
                </a>
             </div>

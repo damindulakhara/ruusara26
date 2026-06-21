@@ -46,21 +46,12 @@ export const Hero: React.FC = () => {
   const { language } = useLanguage();
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center pt-24 sm:pt-32 overflow-hidden bg-[#050505]">
-      {/* Background Graphic */}
-      <div className="absolute inset-0 z-0 flex justify-center lg:justify-end items-center opacity-30 sm:opacity-50 lg:opacity-100 pointer-events-none pr-0 lg:pr-24">
-        {/* We use a placeholder mandala/elephant pattern concept here */}
-        <div className="relative w-full max-w-[800px] aspect-square">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(50,50,50,0.4)_0%,transparent_70%)] rounded-full"></div>
-            <img 
-              src="https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&q=80&w=1600" 
-              alt="Elephant Mandala Graphic" 
-              className="w-full h-full object-cover object-center rounded-3xl opacity-50 mix-blend-luminosity mask-image-gradient"
-              style={{ maskImage: 'radial-gradient(circle, black 30%, transparent 70%)', WebkitMaskImage: 'radial-gradient(circle, black 30%, transparent 70%)' }}
-            />
-        </div>
-      </div>
-
+    <section id="home" className="relative min-h-screen flex items-center pt-24 sm:pt-32 overflow-hidden bg-[#050505] bg-center bg-no-repeat"
+      style={{ 
+        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("https://raw.githubusercontent.com/damindulakhara/ruusara26/main/www.beatsnoop.com-6YW58.jpg")',
+        backgroundSize: 'contain'
+      }}
+    >
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="w-full lg:w-3/5">
           <motion.div
@@ -72,7 +63,7 @@ export const Hero: React.FC = () => {
             {/* The stylized text with typing animation */}
             <TypewriterText 
               text={language === 'si' ? '"මාගේ දේශය\nඅවදි කරනු මැන"' : '"Let My Country\nAwake"'}
-              className={`font-serif text-[3.5rem] sm:text-[5rem] md:text-[6rem] lg:text-[7rem] leading-[1.1] text-gray-200 drop-shadow-2xl mb-8 tracking-tight font-medium ${language === 'en' ? 'font-sans' : ''}`}
+              className={`font-maname text-[3.5rem] sm:text-[5rem] md:text-[6rem] lg:text-[7rem] leading-[1.1] text-gray-200 drop-shadow-2xl mb-8 tracking-tight font-medium`}
               language={language}
             />
             
@@ -91,7 +82,7 @@ export const Hero: React.FC = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
             >
               <a 
-                href="https://forms.gle/placeholder"
+                href="https://forms.gle/dT41ZQWyqTJpaFjaA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`inline-flex items-center px-10 py-4 bg-blue-600 text-white font-bold text-lg rounded-full hover:bg-blue-500 hover:-translate-y-1 transition-all duration-300 shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:shadow-[0_0_40px_rgba(37,99,235,0.8)] ${language === 'si' ? 'font-sinhala' : 'font-sans'}`}

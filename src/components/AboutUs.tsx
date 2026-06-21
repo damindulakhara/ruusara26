@@ -42,7 +42,7 @@ export const AboutUs: React.FC = () => {
               {language === 'si' ? (
                 <>
                   <p className="mb-4">
-                    "මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උලෙළට සමගාමීව, පේරාදෙණිය විශ්ව විද්‍යාලය මහා ශිෂ්‍ය සංගමයේ සාහිත්‍ය අනුකමිටුව විසින් "රූසර ඩිජිටල් නිර්මාණ තරඟාවලිය" පස්වන වරට සංවිධානය කරනු ලබයි.
+                    "මාගේ දේශය අවදි කරනු මැන" ශිෂ්‍ය සාහිත්‍ය උලෙළට සමගාමීව, පේරාදෙණිය විශ්ව විද්‍යාලය මහා ශිෂ්‍ය සංගමයේ සාහිත්‍ය අනුකමිටුව විසින් "රූසර ඩිජිටල් නිර්මාණ තරඟාවලිය" හයවන වරට සංවිධානය කරනු ලබයි.
                   </p>
                   <p>
                     තරඟාවලිය හඬ කැවීම් (Dubbing), ඡායාරූප සැකසුම (Photo Manipulation), ඩිජිටල් චරිත සිතුවම් නිර්මාණය (Character Design) සහ චිත්‍රපට සාරාංශ වීඩියෝ නිර්මාණය (Movie Trailer Design) යන ප්‍රධාන තරඟ අංශ යටතේ පැවැත්වේ.
@@ -51,7 +51,7 @@ export const AboutUs: React.FC = () => {
               ) : (
                 <>
                   <p className="mb-4">
-                    In parallel with the "Let My Country Awake" Student's Festival of Literature, the Literary Subcommittee, Students' Union, University of Peradeniya proudly organizes the "Ruusara Digital Art Competition" for the 5th consecutive time.
+                    In parallel with the "Let My Country Awake" Student's Festival of Literature, the Literary Subcommittee, Students' Union, University of Peradeniya proudly organizes the "Ruusara Digital Art Competition" for the 6th consecutive time.
                   </p>
                   <p>
                     The competition is held under the main categories of Dubbing, Photo Manipulation, Digital Character Design, and Movie Trailer Design.
